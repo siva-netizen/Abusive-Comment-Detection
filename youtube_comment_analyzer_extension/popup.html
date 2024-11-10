@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+  <title>YouTube Comment Analyzer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 300px;
+      padding: 20px;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    #comments {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+    <h2>Enter YouTube Video URL:</h2>
+    <label for="videoUrl">YouTube Video URL:</label>
+  <input type="text" id="videoUrl" placeholder="Enter YouTube Video URL">
+
+  <button onclick="analyzeComments()">Analyze Comments</button>
+  <div id="comments"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

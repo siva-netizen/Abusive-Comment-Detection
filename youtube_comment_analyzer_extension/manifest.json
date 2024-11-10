@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Comment Analyzer",
+    "version": "1.0",
+    "description": "An extension to analyze comments on YouTube videos.",
+    "permissions": [
+      "activeTab",
+      "http://localhost:5000/*"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
